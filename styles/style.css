@@ -37,8 +37,10 @@ header {
 }
 
 h1 {
-    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight: bolder;
+    color: black;
+    margin-bottom: 0px;
 }
 
 img {
@@ -63,7 +65,7 @@ img {
     font-family: 'Source Serif Pro', serif;
     font-size: medium;
     color: rgb(109, 106, 106);
-
+    border-bottom: solid 1px rgba(128, 128, 128, 0.452);;
 }
 
 #notes {
@@ -72,12 +74,13 @@ img {
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding-top: 50px;
     text-align: justify;
-    border-top: solid 1px rgba(128, 128, 128, 0.452);
     font-family: 'Source Serif Pro', serif;
     color: rgba(128, 128, 128, 0.466);
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 button {
@@ -86,4 +89,34 @@ button {
     height: fit-content;
     padding: 15px;
     margin-top: 10px;
+}
+
+#date {
+    font-family: 'Big Shoulders Display', cursive;
+    color: dimgray;
+    letter-spacing: 1px;
+    top: 0%;
+    margin: 0px;
+    display: flex;
+    flex: inline;
+    justify-content: left;
+}
+
+#date-2 {
+    display: flex;
+    flex: inline;
+    justify-content: right;
+    font-size: 15px;
+    margin: 0px;
+    color: dimgray;
+   padding-bottom: 20px;
+}
+
+#knife-fork-logo {
+    margin-left: 115px;
+   
+}
+
+#vs {
+    width: 100px;
 }
