@@ -1,6 +1,7 @@
 body {
-    margin-left: 10rem;
+    margin-left: auto;
     margin-right: auto;
+    width: fit-content;
 }
 
 p {
@@ -11,7 +12,13 @@ p {
     display: flex;
     justify-content: right;
     flex: inline;
-    border-bottom: dashed 3px;
+    border-bottom: 3px dashed rgb(66, 65, 65);
+}
+
+#recipe-main {
+    width: 930px;
+    font-size: large;
+    color: rgb(66, 65, 65);
 }
 
 #header-left {
@@ -27,6 +34,27 @@ h1 {
 }
 
 img {
+    display: flex;
+    justify-content: center;
+}
+
+#p-vs {
+    width: 100%;
+    position: relative;
+    padding-left: 200px;
+}
+
+
+
+#vanessa-section {
+    padding-top: 10px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+footer {
     display: flex;
     justify-content: center;
 }
