@@ -24,7 +24,7 @@ header {
 }
 
 #recipe-main {
-    width: 930px;
+    width: 900px;
     font-size: large;
     color: rgb(66, 65, 65);
 }
@@ -43,9 +43,17 @@ h1 {
     margin-bottom: 0px;
 }
 
+#textRecipe {
+    text-indent: 40px;
+}
+
 img {
     display: flex;
     justify-content: center;
+}
+
+#notes {
+    padding-bottom: 50px;
 }
 
 #p-vs {
@@ -84,18 +92,26 @@ footer {
 }
 
 button {
-    background-color: rgb(218, 116, 32);
-    color: white;
+    background-color: rgba(162, 56, 32, 0.733);
+    color: rgba(255, 255, 255, 0.829);
     height: fit-content;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
     margin-top: 10px;
+    border: 1px solid  rgba(255, 255, 255, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    font-weight: 300;
 }
 
 #date {
-    font-family: 'Big Shoulders Display', cursive;
-    color: dimgray;
-    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: rgba(49, 48, 48, 0.459);
     top: 0%;
+    font-size: small;
     margin: 0px;
     display: flex;
     flex: inline;
@@ -108,8 +124,10 @@ button {
     justify-content: right;
     font-size: 15px;
     margin: 0px;
-    color: dimgray;
-   padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: rgba(49, 48, 48, 0.459);
+    padding-bottom: 20px;
 }
 
 #knife-fork-logo {
