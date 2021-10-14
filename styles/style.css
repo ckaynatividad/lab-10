@@ -8,11 +8,18 @@ p {
     font-family: 'Source Serif Pro', serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dimgray dashed 3px;
+    padding-bottom: 40px;
+}
+
 #header-right {
     display: flex;
     justify-content: right;
     flex: inline;
-    border-bottom: 3px dashed rgb(66, 65, 65);
+    
 }
 
 #recipe-main {
@@ -47,7 +54,11 @@ img {
 
 
 #vanessa-section {
-    padding-top: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: dimgray dashed 3px;
+    
 }
 
 #notes {
@@ -57,4 +68,13 @@ img {
 footer {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    
+}
+
+button {
+    background-color: rgb(218, 116, 32);
+    color: white;
+    height: fit-content;
+    padding: 15px;
 }
