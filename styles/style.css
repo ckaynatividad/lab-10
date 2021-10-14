@@ -1,3 +1,32 @@
+body {
+    margin-left: 10rem;
+    margin-right: auto;
+}
+
 p {
     font-family: 'Source Serif Pro', serif;
+}
+
+#header-right {
+    display: flex;
+    justify-content: right;
+    flex: inline;
+    border-bottom: dashed 3px;
+}
+
+#header-left {
+    display: flex;
+    justify-content: left;
+    flex: inline;
+
+}
+
+h1 {
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+    font-weight: bolder;
+}
+
+img {
+    display: flex;
+    justify-content: center;
 }
